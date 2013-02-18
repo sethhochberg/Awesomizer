@@ -84,7 +84,9 @@ public:
 
 	// Add your code here: ----------------------------------------------------------- //
 
-
+	float m_fAwesomeGain;
+	float m_fXnL;
+	float m_fXnR;
 
 	// END OF USER CODE -------------------------------------------------------------- //
 
@@ -92,11 +94,22 @@ public:
 	// ADDED BY RACKAFX -- DO NOT EDIT THIS CODE!!! ----------------------------------- //
 	//  **--0x07FD--**
 
+	float m_fAwesomeLevel;
+	UINT m_eAwesomeOn;
+	enum{BYPASS,AWESOMIZE};
+	float m_fWarmthLevel;
 
 	// **--0x1A7F--**
 	// ------------------------------------------------------------------------------- //
 
 };
+
+
+
+
+
+
+
 
 
 
