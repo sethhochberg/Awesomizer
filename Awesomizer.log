@@ -1,20 +1,21 @@
-﻿Build started 2/19/2013 12:49:53 AM.
-     1>Project "D:\Dropbox\Code\C++\Awesomizer\Awesomizer.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/19/2013 5:18:29 PM.
+     1>Project "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         P:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _WINDOWS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"D:\Dropbox\Code\C++\Awesomizer\\" /Fd"D:\Dropbox\Code\C++\Awesomizer\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Awesomizer.cpp RackAFXDLL.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\\" /Fd"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt plugin.cpp pluginobjects.cpp RackAFXDLL.cpp Awesomizer.cpp
+         plugin.cpp
+         pluginobjects.cpp
+         RackAFXDLL.cpp
          Awesomizer.cpp
          Generating Code...
-         Compiling...
-         RackAFXDLL.cpp
-         Generating Code...
        Link:
-         P:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Code\C++\Awesomizer\Awesomizer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.lib" /MACHINE:X86 /SAFESEH /DLL D:\Dropbox\Code\C++\Awesomizer\plugin.obj
-         D:\Dropbox\Code\C++\Awesomizer\pluginobjects.obj
-         D:\Dropbox\Code\C++\Awesomizer\RackAFXDLL.obj
-         D:\Dropbox\Code\C++\Awesomizer\Awesomizer.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.lib" /MACHINE:X86 /SAFESEH /DLL "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\plugin.obj"
+         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\pluginobjects.obj"
+         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\RackAFXDLL.obj"
+         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.obj"
+            Creating library C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.lib and object C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.exp
          Awesomizer.vcxproj -> C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll
-     1>Done Building Project "D:\Dropbox\Code\C++\Awesomizer\Awesomizer.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.72
+Time Elapsed 00:00:16.06
