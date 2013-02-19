@@ -6,6 +6,10 @@
 
 	Your plug-in must implement the constructor,
 	destructor and virtual Plug-In API Functions below.
+
+	Awesomizer Plugin by Seth Hochberg
+	University of Miami Music Engineering
+	Spring 2013
 */
 
 #pragma once
@@ -87,6 +91,8 @@ public:
 	float m_fAwesomeGain;
 	float m_fXnL;
 	float m_fXnR;
+	float m_fXnLAwesome;
+	float m_fXnRAwesome;
 
 	// END OF USER CODE -------------------------------------------------------------- //
 
@@ -98,11 +104,32 @@ public:
 	UINT m_eAwesomeOn;
 	enum{BYPASS,AWESOMIZE};
 	float m_fWarmthLevel;
+	UINT m_eMonitorAwesome;
+	enum{OFF,ON};
 
 	// **--0x1A7F--**
 	// ------------------------------------------------------------------------------- //
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,21 +1,20 @@
-﻿Build started 2/18/2013 10:34:33 AM.
-     1>Project "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/19/2013 12:49:53 AM.
+     1>Project "D:\Dropbox\Code\C++\Awesomizer\Awesomizer.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _WINDOWS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\\" /Fd"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Awesomizer.cpp RackAFXDLL.cpp
+         P:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _WINDOWS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"D:\Dropbox\Code\C++\Awesomizer\\" /Fd"D:\Dropbox\Code\C++\Awesomizer\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Awesomizer.cpp RackAFXDLL.cpp
          Awesomizer.cpp
-     1>c:\users\seth hochberg\appdata\roaming\rackafx\rackafxprojects\awesomizer\awesomizer.cpp(131): warning C4553: '==' : operator has no effect; did you intend '='?
          Generating Code...
          Compiling...
          RackAFXDLL.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.lib" /MACHINE:X86 /SAFESEH /DLL "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\plugin.obj"
-         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\pluginobjects.obj"
-         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\RackAFXDLL.obj"
-         "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.obj"
+         P:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Code\C++\Awesomizer\Awesomizer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.lib" /MACHINE:X86 /SAFESEH /DLL D:\Dropbox\Code\C++\Awesomizer\plugin.obj
+         D:\Dropbox\Code\C++\Awesomizer\pluginobjects.obj
+         D:\Dropbox\Code\C++\Awesomizer\RackAFXDLL.obj
+         D:\Dropbox\Code\C++\Awesomizer\Awesomizer.obj
          Awesomizer.vcxproj -> C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\PlugIns\Awesomizer.dll
-     1>Done Building Project "C:\Users\Seth Hochberg\AppData\Roaming\RackAFX\RackAFXProjects\Awesomizer\Awesomizer.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\Dropbox\Code\C++\Awesomizer\Awesomizer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.07
+Time Elapsed 00:00:01.72
